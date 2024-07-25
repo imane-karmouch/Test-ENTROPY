@@ -26,7 +26,15 @@ for i in range(1,4):
                         result[r][r+2]=numbers[l+k+j+i+s+4]
                         if r==2:
                             result[r+3][0]=numbers[l+k+j+i+s+4]
-                        
-                    
+'''for i in range(1,4):
+    result[i+1][i] = numbers[i]
+    result[i+2][i] = numbers[i+4]
+'''
+
 for row in result:
     print('      '.join(map(str, row)))
+
+
+
+
+
